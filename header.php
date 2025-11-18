@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?>>
 <head>
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
     <title>Swanholm Tech</title>
 </head>
-<body>
+<body <?php body_class(); ?>>
      <header class="site-header">
       <div class="container">
         <h1 class="school-logo-text float-left">
-          <a href="#"><strong>Swanholm</strong>Technology</a>
+          <a href="<?php echo site_url(); ?>"><strong>Swanholm</strong>Technology</a>
         </h1>
         <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
         <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
@@ -16,7 +18,7 @@
           <nav class="main-navigation">
             <ul>
               <li><a href="#">Products</a></li>
-              <li><a href="/about-us">About Us</a></li>
+              <li><a href="<?php echo site_url('/about-us'); ?>">About Us</a></li>
               <li><a href="#">News</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
