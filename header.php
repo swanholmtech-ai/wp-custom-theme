@@ -16,7 +16,7 @@
           <nav class="main-navigation">
             <ul>
               <li><a href="#">Products</a></li>
-              <li><a href="#">About Us</a></li>
+              <li><a href="/about-us">About Us</a></li>
               <li><a href="#">News</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
