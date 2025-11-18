@@ -1,0 +1,11 @@
+.rio-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rio-section-paragraphs {
+  background-color: rgb(247, 247, 247);
+  padding: 12px 10px 0px 10px;
+  border: solid 1px #9b9b9b;
+  border-radius: 8px;
+}

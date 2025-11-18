@@ -874,9 +874,11 @@ body.login {
   color: #faf0ca;
 }
 .page-banner {
-  background-color: #000;
-  padding: 80px 0 40px 0;
+  background-color: #e6e6e6;
+  padding: 20px 0 40px 0;
   position: relative;
+  display: flex;
+  justify-content: space-evenly;
 }
 @media (min-width: 530px) {
   .page-banner {
