@@ -11,6 +11,9 @@ function my_theme_enqueue_styles() {
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
 
 function swanholmtech_features() {
+    register_nav_menu('headerMainMenu', 'Header Main Menu');
+    register_nav_menu('footerMenuOne', 'Footer Menu One');
+    register_nav_menu('footerMenuTwo', 'Footer Menu Two');
     add_theme_support('title-tag');
 }
 add_action('after_setup_theme', 'swanholmtech_features');

@@ -16,12 +16,13 @@
         <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
         <div class="site-header__menu group">
           <nav class="main-navigation">
-            <ul>
+            <?php wp_nav_menu(array('theme_location' => 'headerMainMenu')) ?>
+            <!-- <ul>
               <li><a href="#">Products</a></li>
-              <li><a href="<?php echo site_url('/about-us'); ?>">About Us</a></li>
+              <li><a href="#>About Us</a></li>
               <li><a href="#">News</a></li>
               <li><a href="#">Contact</a></li>
-            </ul>
+            </ul> -->
           </nav>
           <!-- <div class="site-header__util">
             <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
