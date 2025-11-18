@@ -945,11 +945,20 @@ body.login {
   background-repeat: no-repeat;
   height: 100vh;
 }
-.hero-slider__overlay {
-  margin: 0 auto;
+
+.font-bold-italic-dark-bg {
+  font-weight: bold;
+  font-style: italic;
   background-color: rgba(0, 0, 0, 0.68);
-  padding: 40px;
-  color: #fff;
+}
+
+.hero-slider__overlay {
+  /* margin: 0 auto; */
+  /* background-color: rgba(0, 0, 0, 0.68); */
+  margin-top: 20%;
+  color: #e0dddd;
+  width: fit-content;
+  padding: 6px;
 }
 @media (min-width: 960px) {
   .hero-slider__overlay {

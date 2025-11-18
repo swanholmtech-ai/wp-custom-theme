@@ -5,7 +5,7 @@
       <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bg-1.webp'); ?>)">
         <div class="hero-slider__interior container">
           <div class="hero-slider__overlay">
-            <h2 class="headline headline--medium t-center">What if your Vest could save your life?</h2>
+            <h2 class="headline headline--medium t-center font-bold-italic-dark-bg">Your smart vest has your back</h2>
             <p class="t-center">Revolutionary smart safety technology that protects workers in real-time</p>
             <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
           </div>
@@ -14,7 +14,7 @@
       <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bg-2.webp'); ?>)">
         <div class="hero-slider__interior container">
           <div class="hero-slider__overlay">
-            <h2 class="headline headline--medium t-center">Seconds Matters</h2>
+            <h2 class="headline headline--medium t-center font-bold-italic-dark-bg">Seconds Matters</h2>
             <p class="t-center">One life can be save in one second.</p>
             <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
           </div>
@@ -23,7 +23,7 @@
       <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bg-3.webp'); ?>)">
         <div class="hero-slider__interior container">
           <div class="hero-slider__overlay">
-            <h2 class="headline headline--medium t-center">Be connected Be Safe</h2>
+            <h2 class="headline headline--medium t-center font-bold-italic-dark-bg">Be connected Be Safe</h2>
             <p class="t-center">By using Swanholm Alert Vest you can be sure to get help when in need.</p>
             <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
           </div>
